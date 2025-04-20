@@ -135,10 +135,10 @@ const sound = document.getElementById("sound"); // 加入這行
   let result = document.getElementById("resultText");
   if (success) {
     result.textContent = "牠心花怒放，訊號甜甜圈轉個不停。準備進入下一關～";
-    setTimeout(() => window.location.href = "level2_game.html", 3000);
+    setTimeout(() => window.location.href = "level3_game.html", 3000);
   } else {
     result.textContent = "訊號有點斷斷續續… 牠有些疲憊。請再試一次！";
-    setTimeout(() => window.location.href = "index.html", 3000);
+    setTimeout(() => window.location.href = "index.html", 3000); // 2 秒後重新載入頁面
   }
 }
 
