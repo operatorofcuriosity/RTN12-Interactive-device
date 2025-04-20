@@ -68,11 +68,11 @@
   <div class="game-frame">
     <h2>Level 2：熱情擁抱</h2>
     <img class="router-img" src="router_waiting.gif" alt="Router">
-    <p>請在 <strong>10 秒</strong> 內點擊按鈕 20 次，牠今天特別想跟你連結</p>
+    <p>請在 <strong>15 秒</strong> 內點擊按鈕 20 次，牠今天特別想跟你連結</p>
     <button id="clickBtn" class="click-button" onclick="registerClick()">快點我</button>
 
     <div id="progressDisplay">互動次數：0 / 20</div>
-    <div id="timer">剩餘時間：10 秒</div>
+    <div id="timer">剩餘時間：15 秒</div>
     <div class="result" id="resultText"></div>
     <audio id="sound" src="pop.mp3" preload="auto"></audio>
 
@@ -80,7 +80,7 @@
 
   <script>
     let clickCount = 0;
-    let timeLeft = 10;
+    let timeLeft = 15;
     let timerStarted = false;
     let timerInterval;
 const sound = document.getElementById("sound"); // 加入這行
